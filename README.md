@@ -1,6 +1,6 @@
 # Mersenne Twister Benchmarking on Arduino
 
-This project implements the Mersenne Twister random number generator on Arduino IDE compatible boards. It measures the time taken to generate a specified number of 64-bit random numbers, providing a simple benchmarking tool for performance evaluation.
+This project implements the Mersenne Twister random number generator on Arduino IDE compatible boards. It measures the time taken to generate a specified number of both 32 and 64-bit random numbers, providing a simple benchmarking tool for performance evaluation.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This project implements the Mersenne Twister random number generator on Arduino 
 
 ## Features
 
-- Generates 64-bit random numbers using the Mersenne Twister algorithm.
+- Generates 32-bit and 64-bit random numbers using the Mersenne Twister algorithm.
 - Measures and prints the elapsed time for generating a specified number of random numbers.
 - Easily adjustable to benchmark different sizes of random number generation.
 
